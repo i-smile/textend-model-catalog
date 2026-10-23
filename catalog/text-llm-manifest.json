@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "catalog": "text-llm",
-  "manifestVersion": "2026-10-09.1",
+  "manifestVersion": "2026-10-23.1",
   "providers": {
     "openrouter": {
       "label": "OpenRouter",
@@ -28,6 +28,7 @@
         { "id": "google/gemini-3.1-pro-preview", "role": "旗舰", "defaultVisible": true },
         { "id": "google/gemini-3.8-flash", "role": "快速", "defaultVisible": true },
         { "id": "google/gemini-3.7-flash", "role": "快速", "defaultVisible": true },
+        { "id": "google/gemini-4-argon", "role": "旗舰", "defaultVisible": true },
         { "id": "x-ai/grok-4.6", "role": "推理" },
         { "id": "deepseek/deepseek-v4-pro", "role": "编程", "defaultVisible": true },
         { "id": "deepseek/deepseek-v4-flash", "role": "快速" },
@@ -35,6 +36,7 @@
         { "id": "qwen/qwen3.8-max-0902", "role": "推理" },
         { "id": "moonshotai/kimi-k3", "role": "长文本" },
         { "id": "minimax/minimax-m3", "role": "日常" },
+        { "id": "minimax/minimax-m3.1-flash", "role": "快速", "defaultVisible": true },
         { "id": "z-ai/glm-5.2", "role": "中文" },
         { "id": "xiaomi/mimo-v2.5-pro", "role": "推理" },
         { "id": "tencent/hy3", "role": "中文" },
@@ -84,6 +86,7 @@
       "label": "Google Gemini",
       "strategy": "curated",
       "models": [
+        { "id": "gemini-4-argon", "role": "旗舰", "defaultVisible": true },
         { "id": "gemini-3.1-pro-preview", "role": "旗舰", "defaultVisible": true },
         { "id": "gemini-3.7-flash", "role": "快速", "defaultVisible": true },
         { "id": "gemini-3.8-flash", "role": "快速", "defaultVisible": true }
@@ -145,7 +148,8 @@
       "label": "MiniMax",
       "strategy": "curated",
       "models": [
-        { "id": "MiniMax-M3", "role": "旗舰", "defaultVisible": true }
+        { "id": "MiniMax-M3", "role": "旗舰", "defaultVisible": true },
+        { "id": "MiniMax-M3.1-Flash", "role": "快速", "defaultVisible": true, "reasoningOff": "thinking_disabled" }
       ]
     },
     "minimax-coding-plan": {
