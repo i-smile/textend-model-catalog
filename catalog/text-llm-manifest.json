@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "catalog": "text-llm",
-  "manifestVersion": "2026-11-01.1",
+  "manifestVersion": "2026-11-15.1",
   "providers": {
     "openrouter": {
       "label": "OpenRouter",
@@ -9,6 +9,7 @@
       "models": [
         { "id": "anthropic/claude-fable-5", "role": "旗舰", "defaultVisible": true },
         { "id": "anthropic/claude-fable-5.1", "role": "旗舰", "defaultVisible": true },
+        { "id": "anthropic/claude-fable-5.2", "role": "旗舰", "defaultVisible": true },
         { "id": "anthropic/claude-opus-5", "role": "旗舰", "defaultVisible": true },
         { "id": "anthropic/claude-opus-5.5", "role": "旗舰", "defaultVisible": true },
         { "id": "anthropic/claude-sonnet-5", "role": "日常", "defaultVisible": true },
@@ -31,6 +32,8 @@
         { "id": "google/gemini-3.8-flash", "role": "快速", "defaultVisible": true },
         { "id": "google/gemini-3.7-flash", "role": "快速", "defaultVisible": true },
         { "id": "google/gemini-4-argon", "role": "旗舰", "defaultVisible": true },
+        { "id": "google/gemini-4-carbon", "role": "旗舰", "defaultVisible": true },
+        { "id": "google/gemini-4-hydrogen", "role": "快速", "defaultVisible": true },
         { "id": "x-ai/grok-4.6", "role": "推理" },
         { "id": "deepseek/deepseek-v4-pro", "role": "编程", "defaultVisible": true },
         { "id": "deepseek/deepseek-v4-flash", "role": "快速" },
@@ -78,6 +81,7 @@
       "models": [
         { "id": "claude-fable-5", "role": "旗舰", "defaultVisible": true },
         { "id": "claude-fable-5-1", "role": "旗舰", "defaultVisible": true },
+        { "id": "claude-fable-5-2", "role": "旗舰", "defaultVisible": true },
         { "id": "claude-opus-5", "role": "旗舰" },
         { "id": "claude-opus-5-5", "role": "旗舰", "defaultVisible": true },
         { "id": "claude-sonnet-5", "role": "日常", "defaultVisible": true },
@@ -91,6 +95,8 @@
       "strategy": "curated",
       "models": [
         { "id": "gemini-4-argon", "role": "旗舰", "defaultVisible": true },
+        { "id": "gemini-4-carbon", "role": "旗舰", "defaultVisible": true },
+        { "id": "gemini-4-hydrogen", "role": "快速", "defaultVisible": true },
         { "id": "gemini-3.1-pro-preview", "role": "旗舰", "defaultVisible": true },
         { "id": "gemini-3.7-flash", "role": "快速", "defaultVisible": true },
         { "id": "gemini-3.8-flash", "role": "快速", "defaultVisible": true }
